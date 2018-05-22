@@ -1,0 +1,89 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.special-large {
+    padding: 80px 80px;
+    min-height: 200px;
+    min-width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(14, 0, 239, 0.85) !important;
+}
+
+.special-large label {
+    margin-top: 50%;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.intro-text {
+    padding-top: 100px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.navbar-br {
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 40px !important;
+    padding-left: 100px !important;
+}
+
+.navbar-br:hover {
+
+}
+
+.nav-link {
+    color: #FDD048 !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 24px !important;
+    padding: 0 !important;
+}
+
+#mainNav{
+    overflow: hidden;
+    background-color: rgb(74, 61, 68);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+/*Packing list*/
+.pl ul {
+    overflow: hidden;
+    padding: 0;
+}
+
+#list {
+    padding: 0;
+    list-style-type: none !important;
+}
+
+.pl li {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 35px;
+    -moz-transform: translateX(-100%);
+    -moz-transition: transform 0.5s, opacity 2s;
+    opacity: 0;
+}
+
+.pl .show {
+    opacity: 1;
+    -moz-transform: translateX(0%);
+}
+
+.intro-text{
+    margin-top: 100px;
+}

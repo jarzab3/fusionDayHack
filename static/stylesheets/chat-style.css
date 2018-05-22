@@ -1,0 +1,104 @@
+body {
+    font-family: Garamond;
+}
+
+h1 {
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-top: 60px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 90%;
+    height: 45px;
+    border: none;
+    border-bottom: 3px solid #009688;
+    font-size: 20px;
+    border-radius: 6px;
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+#buttonInput {
+    margin-top: 10px;
+    padding-top: 6px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    background-color: white;
+    color: rgba(29, 29, 29, 0.89);
+    font-family: 'Lato', sans-serif !important;
+
+}
+
+.userText {
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    line-height: 30px;
+    padding-top: 12px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.userText span {
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.botText {
+    color: rgba(29, 29, 29, 0.89);
+    font-size: 20px;
+    text-align: left;
+    line-height: 50px;
+    padding-top: 12px;
+}
+
+.botText span {
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif !important;
+    background-color: #D51540;
+    color: white;
+}
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+#chat-main {
+    padding-top: 89px !important;
+    top:60px;
+    position:relative;
+    z-index:200;
+    padding-bottom: 20px;
+}
